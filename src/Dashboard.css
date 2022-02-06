@@ -1,0 +1,213 @@
+* {
+	margin:  0;
+}
+.body {
+	background-color: #282c34;
+	min-height: 97vh;
+	padding-top: 3vh;
+	padding-bottom: 5vh;
+}
+.appName {
+	color: white;
+	margin-bottom: 20px;
+}
+.title {
+	color:  #61DBFB;
+	font-weight: bold;
+	font-size: 50;
+}
+
+.lastUpadtedMesasge {
+	margin: 20px 20px;
+	margin-bottom: 5px;
+	text-align: left;
+	font-size: 14px;
+	color: rgba(255,255,255,0.7);
+}
+
+
+.dailyWeeklySwitchDiv {
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px 2px #000000;
+	cursor: pointer;
+	margin: 10px;
+}
+/*.dailyWeeklySwitchDiv > * {
+	flex-basis: 100%;
+  text-align: center;
+
+}*/
+.typeSwitchOnDiv {
+	padding: 5px;
+	background-color: #61DBFB;
+}
+.typeSwitchOffDiv {
+	padding: 5px;
+}
+.typeSwitchOnText {
+	color: #282c34;
+}
+.typeSwitchOffText {
+	color: #61DBFB;
+}
+.leftSwitch {
+	border-radius: 5px 0px 0px 5px;
+}
+.rightSwitch {
+	border-radius: 0px 5px 5px 0px;
+}
+
+
+.dailyWeeklySwitchDiv {
+	display: flex;
+	flex-direction: row;
+}
+
+.predictionsTable {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0px 10px;
+	margin-bottom: 20px;
+}
+.predictionsTableColumn {
+	flex-direction: column;
+	color: white;
+	flex:  1;
+}
+
+.predictionColumnTitleDiv {
+	flex: 1;
+	background-color: black;
+	padding: 15px 0px;
+	margin-top:  10px;
+}
+.predictionColumnTitleText {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.predictionColumnCell {
+	flex: 1;
+}
+.predictionColumnInnerCell {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.predictionColumnCellText {
+	font-size: 17;
+	font-weight: bold;
+}
+
+
+
+
+.tableMetaInfoRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.tableMetaInfoNumber {
+	font-size: 17;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+
+.graphDiv {
+	width: 60vw;
+	height: 34vw;
+	margin: 0 auto;
+	box-shadow: 0px 0px 13px -2px #000000;
+	padding: 20px;
+	border-radius: 5px;
+}
+.chartTitle {
+	color:  white;
+	margin-bottom: 10px;
+	display: flex;
+	align-self: center;
+}
+
+.numberInputField {
+	width: 25px;
+	padding:  0px;
+	font-size: 20px;
+	background-color: inherit;
+	border-width: 0.5px;
+	border-color: rgba(255,255,255,0.7);
+	border-style:  solid;
+	border-right: none;
+	color: white;
+	text-align: center;
+	border-radius:  3px 0px 0px 3px;
+}
+
+.plusAndMinusButtons {
+	background-color: inherit;
+	border-width: 0.5px;
+	border-color: rgba(255,255,255,0.7);
+	border-style:  solid;
+	cursor: pointer;
+	font-size: 10px;
+	color: white;
+	align-items: center;
+	width: 10px;
+}
+.plusButton {
+	border-radius: 0px 3px 0px 0px;
+}
+.minusButton {
+	border-radius: 0px 0px 3px 0px;
+}
+
+
+
+
+.bottomNoteText {
+	color: white;
+	margin: 20px 5vw;
+	text-align: left;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+ 	.graphDiv {
+ 		width: 60vw;
+		height: 38vw;
+	}
+}
+@media only screen and (max-width: 700px) {
+ 	.graphDiv {
+ 		width: 80vw;
+		height: 49vw;
+	}
+}
+@media only screen and (max-width: 600px) {
+ 	.graphDiv {
+ 		width: 80vw;
+		height: 70vw;
+	}
+}
+@media only screen and (max-width: 500px) {
+ 	.graphDiv {
+ 		width: 80vw;
+		height: 80vw;
+	}
+}
+@media only screen and (max-width: 500px) {
+ 	.graphDiv {
+ 		width: 85vw;
+		height: 85vw;
+	}
+}
+
+
+
+
+
+
